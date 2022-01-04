@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+    <header><h1> What do I have to do today?</h1></header>
+  </head>
+  <body>
+    <main>
+      <header>
+      <div id="container">
+        <input id="texto-tarefa" type="text" placeholder="Insert a new task"/>
+        <button id="criar-tarefa" type="submit">New task</button>
+      </div>
+      <p id="funcionamento">
+        Click two times to mark a task as completed.
+      </p>
+    </header>
+    <main>
+      <!-- <img
+        id="img"
+        src="https://www.quickanddirtytips.com/sites/default/files/styles/insert_large/public/images/12361/to-do-list%20(2).jpg?itok=D0awGDTg"
+        alt="bloco de notas"
+      /> -->
+      <ol id="lista-tarefas"></ol>
+      <div id='all-icones'>
+        <div id="move">
+          <button id="mover-cima">Up</button>
+          <button id="mover-baixo">Down</button>
+        </div>
+        <div id="down-bottons">
+          <div><i id="salvar-tarefas" class="fa fa-save"> All</i></div>
+          <div><i id="apaga-tudo" class="fa fa-trash"> All</i></div>
+          <div><i id="remover-selecionado" class="fa fa-trash"> Selected </i></div>
+          <div>
+            <i id="remover-finalizados" class="fa fa-trash"> Completed </i>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <span> To devote oneself, day by day, we can make our life better and take all we wish.</span>
+    </footer>
+      <script type="text/javascript" src="script.js"></script>
+    </main>
+  </body>
+</html>
