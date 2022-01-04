@@ -66,11 +66,6 @@ Você também pode assistir a [este](https://vimeo.com/539240375/a116a166b9) ví
 
 ## Requisitos do projeto
 
-### 💡Veja o exemplo a seguir de como o projeto pode se parecer depois de pronto. Lembre-se que você pode ~~e deve~~ ir além para deixar o projeto com a sua cara e impressionar todas as pessoas!
-
-![exemplo de uma todo list](./todo-list-example.gif)
-
-
 ## ⚠️ Leia-os atentamente e siga à risca o que for pedido. Em particular, **atente-se para os nomes de _ids_ que alguns elementos de seu projeto devem possuir**. ⚠️
 
 O não cumprimento de um requisito, total ou parcialmente, impactará em sua avaliação.
